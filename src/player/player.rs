@@ -1,5 +1,5 @@
 use gstreamer::prelude::*;
-// use std::path::PathBuf;
+use std::path::PathBuf;
 
 pub fn play_video(path: &PathBuf) {
     if let Err(e) = gstreamer::init() {

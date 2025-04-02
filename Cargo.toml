@@ -13,5 +13,3 @@ gtk4 = "0.9.6"
 gstreamer = "0.23"
 glib = "0.20.9"
 cairo-rs = "0.20.7"
-
-
