@@ -1,6 +1,7 @@
 mod ui;
 mod config;
 mod player;
+mod functions;
 
 use dialoguer::{theme::ColorfulTheme, Select};
 use std::path::PathBuf;
