@@ -4,7 +4,7 @@ mod player;
 mod functions;
 
 use dialoguer::{theme::ColorfulTheme, Select};
-use std::path::PathBuf;
+// use std::path::PathBuf;
 
 fn main() {
     loop {

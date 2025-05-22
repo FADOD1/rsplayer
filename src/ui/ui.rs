@@ -18,7 +18,7 @@ pub fn select_video(default_folder: &str) -> Option<PathBuf> {
         println!("Nenhum vídeo encontrado na pasta.");
         return None;
     }
-
+    // cabeçalho de items
     let items = paths.iter().map(|p| p.display().to_string()).collect::<Vec<_>>();
     let i = Select::with_theme(&ColorfulTheme::default())
         .with_prompt("Escolha o vídeo para reproduzir:")
